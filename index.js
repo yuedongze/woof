@@ -51,10 +51,12 @@ function initMap() {
 
   document.getElementById("btn1").addEventListener("click", () => {
     console.log("Logging event 1 with location and time", foundLocation, new Date());
+    alert("Logged event 1.");
   });
 
   document.getElementById("btn2").addEventListener("click", () => {
     console.log("Logging event 2 with location and time", foundLocation, new Date());
+    alert("Logged event 2.");
   });
 
   locationButton.click();
